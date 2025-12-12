@@ -14,7 +14,7 @@ app.get("/todos", (req, res) => {
 });
 
 app.get("/", (req, res) => {
-  res.send("API běží. Zkus /todos");
+  res.send("API běží (v2). Zkus /todos");
 });
 
 app.listen(PORT, () => {
