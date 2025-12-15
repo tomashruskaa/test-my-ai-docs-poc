@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "Pokusny projekt pro AI-dokumentaci",
   "main": "src/index.js",
-  "scripts": {
-    "start": "node src/index.js"
-  },
+ "scripts": {
+  "start": "node src/index.js",
+  "update-docs": "node tools/update-docs.js"
+},
+
   "dependencies": {
     "express": "^4.21.0"
   }
